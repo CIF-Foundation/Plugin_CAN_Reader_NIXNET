@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+import "cif_common.proto";
+//The CIF protos are installed in the default CIF data directory.  On Windows this is C:/Users/Public/Documents/CIF/protos
+//When generating new gRPC server/client code this directory needs to be provided as an Import path
+
+package cif.can_reader_nixnet;
+
+// This demonstrates a simple gRPC service.  This service will allow setting a numeric value in the plugin and reading that value back.  
+
+service CanReaderNixnet {
+  rpc SetNumeric (Numeric) returns (cif.common.Status) {}
+  rpc GetResult (cif.common.Empty) returns (Result) {}
+  rpc GetStatistics (cif.common.Empty) returns (Statistics) {}
+}
+
+message Numeric {
+   int32 numeric = 1;
+}
+
+message Result {
+   int32 result = 1;
+}
+
+message Statistics {
+   uint64 iterations = 1;
+}
