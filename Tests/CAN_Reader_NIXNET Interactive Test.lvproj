@@ -30,6 +30,7 @@
 		<Item Name="CAN_Reader_NIXNET_Plugin.lvlib" Type="Library" URL="../../Callable Library/CAN_Reader_NIXNET_Plugin.lvlib"/>
 		<Item Name="CAN_Reader_NIXNET_Common.lvlib" Type="Library" URL="../../Common/CAN_Reader_NIXNET_Common.lvlib"/>
 		<Item Name="CAN_Reader_NIXNET_Plugin.lvclass" Type="LVClass" URL="../../Class/CAN_Reader_NIXNET_Plugin.lvclass"/>
+		<Item Name="test blink.vi" Type="VI" URL="../test blink.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/JKI JSON Serialization.lvlib"/>
@@ -200,6 +201,8 @@
 				<Item Name="CIFU8ArrayMonitor_client.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF U8 Array Monitor gRPC/U8_Array_Monitor_gRPC/CIFU8ArrayMonitor_client/CIFU8ArrayMonitor_client.lvlib"/>
 				<Item Name="U8 Array.ctl" Type="VI" URL="/&lt;vilib&gt;/CIF Foundation/CIF U8 Array Monitor gRPC/U8_Array_Monitor_gRPC/CIFU8ArrayMonitorUtilities/Typedef/U8 Array.ctl"/>
 				<Item Name="CIFU8ArrayMonitorWrapper.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF U8 Array Monitor gRPC/U8_Array_Monitor_gRPC/CIFU8ArrayMonitorWrapper/CIFU8ArrayMonitorWrapper.lvlib"/>
+				<Item Name="XNET Blink Modifier.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Blink Modifier.ctl"/>
+				<Item Name="XNET Blink.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Blink.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>

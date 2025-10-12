@@ -9,19 +9,32 @@ package cif.can_reader_nixnet;
 // This demonstrates a simple gRPC service.  This service will allow setting a numeric value in the plugin and reading that value back.  
 
 service CanReaderNixnet {
-  rpc SetNumeric (Numeric) returns (cif.common.Status) {}
-  rpc GetResult (cif.common.Empty) returns (Result) {}
+  rpc GetDevices (RefreshDevices) returns (XnetDevices) {}
   rpc GetStatistics (cif.common.Empty) returns (Statistics) {}
-}
-
-message Numeric {
-   int32 numeric = 1;
-}
-
-message Result {
-   int32 result = 1;
+  rpc SetInterfaceBlink (InterfaceBlink) returns (cif.common.Status) {}
 }
 
 message Statistics {
    uint64 iterations = 1;
+   uint64 read_timeouts = 2;
+   uint64 read_frames = 3;
+   uint64 filtered_frames = 4;
+}
+
+message RefreshDevices {
+   bool refresh_device_list = 1;
+}
+
+message InterfaceBlink {
+   bool blink = 1;
+}
+
+message XnetDevices {
+   repeated XnetDevice devices = 1;
+}
+
+message XnetDevice {
+   string interface = 1;
+   uint32 slot = 2;
+   string device_id = 3;
 }
