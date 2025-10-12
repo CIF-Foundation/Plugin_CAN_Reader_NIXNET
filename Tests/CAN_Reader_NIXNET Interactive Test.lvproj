@@ -195,6 +195,11 @@
 				<Item Name="XNET Wait (Interface Communicating).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Wait (Interface Communicating).vi"/>
 				<Item Name="XNET Wait (CAN Remote Wakeup).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Wait (CAN Remote Wakeup).vi"/>
 				<Item Name="XNET Wait.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Wait.vi"/>
+				<Item Name="CIFU8ArrayMonitor_server.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF U8 Array Monitor gRPC/U8_Array_Monitor_gRPC/CIFU8ArrayMonitor_server/CIFU8ArrayMonitor_server.lvlib"/>
+				<Item Name="CIFU8ArrayMonitorUtilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF U8 Array Monitor gRPC/U8_Array_Monitor_gRPC/CIFU8ArrayMonitorUtilities/CIFU8ArrayMonitorUtilities.lvlib"/>
+				<Item Name="CIFU8ArrayMonitor_client.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF U8 Array Monitor gRPC/U8_Array_Monitor_gRPC/CIFU8ArrayMonitor_client/CIFU8ArrayMonitor_client.lvlib"/>
+				<Item Name="U8 Array.ctl" Type="VI" URL="/&lt;vilib&gt;/CIF Foundation/CIF U8 Array Monitor gRPC/U8_Array_Monitor_gRPC/CIFU8ArrayMonitorUtilities/Typedef/U8 Array.ctl"/>
+				<Item Name="CIFU8ArrayMonitorWrapper.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF U8 Array Monitor gRPC/U8_Array_Monitor_gRPC/CIFU8ArrayMonitorWrapper/CIFU8ArrayMonitorWrapper.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>

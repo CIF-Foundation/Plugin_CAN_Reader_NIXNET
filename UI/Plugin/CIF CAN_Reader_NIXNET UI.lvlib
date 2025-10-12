@@ -9,7 +9,11 @@
 
 </Property>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="U8 Array to CAN Display.vi" Type="VI" URL="../SubVIs/U8 Array to CAN Display.vi"/>
 		<Item Name="Update Configuration Control.vi" Type="VI" URL="../SubVIs/Update Configuration Control.vi"/>
+	</Item>
+	<Item Name="Typedef" Type="Folder">
+		<Item Name="CAN Return MAP.ctl" Type="VI" URL="../Typedef/CAN Return MAP.ctl"/>
 	</Item>
 	<Item Name="CIF CAN_Reader_NIXNET UI.vi" Type="VI" URL="../CIF CAN_Reader_NIXNET UI.vi"/>
 	<Item Name="UI Subpanel.vi" Type="VI" URL="../UI Subpanel.vi"/>
