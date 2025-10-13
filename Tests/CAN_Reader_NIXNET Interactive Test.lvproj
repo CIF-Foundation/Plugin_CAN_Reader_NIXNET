@@ -30,7 +30,6 @@
 		<Item Name="CAN_Reader_NIXNET_Plugin.lvlib" Type="Library" URL="../../Callable Library/CAN_Reader_NIXNET_Plugin.lvlib"/>
 		<Item Name="CAN_Reader_NIXNET_Common.lvlib" Type="Library" URL="../../Common/CAN_Reader_NIXNET_Common.lvlib"/>
 		<Item Name="CAN_Reader_NIXNET_Plugin.lvclass" Type="LVClass" URL="../../Class/CAN_Reader_NIXNET_Plugin.lvclass"/>
-		<Item Name="test blink.vi" Type="VI" URL="../test blink.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/JKI JSON Serialization.lvlib"/>
