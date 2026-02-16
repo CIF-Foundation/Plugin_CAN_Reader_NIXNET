@@ -310,6 +310,7 @@
 				<Item Name="Errors_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Errors/Errors_CIF_U.lvlib"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="File_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/File/File_CIF_U.lvlib"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
@@ -798,10 +799,10 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_targetDestDir" Type="Path">/rt</Property>
 				<Property Name="Bld_version.build" Type="UInt">0</Property>
 				<Property Name="Bld_version.major" Type="UInt">1</Property>
-				<Property Name="Bld_version.minor" Type="UInt">3</Property>
-				<Property Name="Bld_version.patch" Type="UInt">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">CAN_Reader_NIXNET_Plugin.1.3.2.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/rt/CAN_Reader_NIXNET_Plugin.1.3.2.lvlibp</Property>
+				<Property Name="Bld_version.minor" Type="UInt">4</Property>
+				<Property Name="Bld_version.patch" Type="UInt">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">CAN_Reader_NIXNET_Plugin.1.4.1.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/rt/CAN_Reader_NIXNET_Plugin.1.4.1.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -809,7 +810,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/rt</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E34A9A87-4417-4873-9B77-9D49321030C1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9B09FBE1-2C5A-425C-9BD2-078932069B26}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/CAN_Reader_NIXNET_Plugin.lvlib</Property>
@@ -825,7 +826,7 @@ AddOutputFilter chunkFilter
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
 				<Property Name="TgtF_productName" Type="Str">PluginRT</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{6DA0406C-9AB0-4143-8ABB-FB8A9909FCC3}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">CAN_Reader_NIXNET_Plugin.1.3.2.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">CAN_Reader_NIXNET_Plugin.1.4.1.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
