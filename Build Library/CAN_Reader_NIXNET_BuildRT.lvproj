@@ -627,7 +627,7 @@ AddOutputFilter chunkFilter
 				<Item Name="_XNET Split Database Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Split Database Cluster.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Assert Error Cluster Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Error Cluster Type.vim"/>
-				<Item Name="Assert Fixed-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Fixed-Point Numeric Type.vim"/>
+				<Item Name="Boolean_CIF_U.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Utilities/Boolean/Boolean_CIF_U.lvlib"/>
 				<Item Name="CAN_RW_CORE.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/CIF Foundation/CIF CAN RW Core/CAN_RW_CORE.lvclass"/>
 				<Item Name="ChannelCommon.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Channels Core/ChannelCommon/ChannelCommon.lvlib"/>
 				<Item Name="ChannelRegistrar.lvlib" Type="Library" URL="/&lt;vilib&gt;/CIF Foundation/CIF Core/Channels/ChannelRegistrar/ChannelRegistrar.lvlib"/>
@@ -793,19 +793,22 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A53570B8-EA03-43C2-A6E2-1D5C5A9E4FE8}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">PluginRT</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/CIF/builds/CAN_Reader_NIXNETPlugin</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/CIF Build Actions.lvlib/Core/Versioned RT Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E1B1FFA6-FD1A-43A9-B4CA-878D53F65E7D}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/rt</Property>
 				<Property Name="Bld_version.build" Type="UInt">0</Property>
-				<Property Name="Bld_version.major" Type="UInt">2</Property>
+				<Property Name="Bld_version.major" Type="UInt">3</Property>
 				<Property Name="Bld_version.minor" Type="UInt">0</Property>
-				<Property Name="Bld_version.patch" Type="UInt">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">CAN_Reader_NIXNET_Plugin.2.0.2.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/rt/CAN_Reader_NIXNET_Plugin.2.0.2.lvlibp</Property>
+				<Property Name="Bld_version.patch" Type="UInt">4</Property>
+				<Property Name="Destination[0].destName" Type="Str">CAN_Reader_NIXNET_Plugin.3.0.4.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/rt/CAN_Reader_NIXNET_Plugin.3.0.4.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -813,7 +816,13 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/rt</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9B09FBE1-2C5A-425C-9BD2-078932069B26}</Property>
+				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AE8C5F7E-D20A-482A-824E-B407D7CDDB0E}</Property>
+				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target/CAN_Reader_NIXNET_Plugin.lvlib</Property>
@@ -829,7 +838,7 @@ AddOutputFilter chunkFilter
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
 				<Property Name="TgtF_productName" Type="Str">PluginRT</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{6DA0406C-9AB0-4143-8ABB-FB8A9909FCC3}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">CAN_Reader_NIXNET_Plugin.2.0.2.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">CAN_Reader_NIXNET_Plugin.3.0.4.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
