@@ -696,9 +696,9 @@
 				<Property Name="Bld_version.build" Type="UInt">0</Property>
 				<Property Name="Bld_version.major" Type="UInt">3</Property>
 				<Property Name="Bld_version.minor" Type="UInt">0</Property>
-				<Property Name="Bld_version.patch" Type="UInt">6</Property>
-				<Property Name="Destination[0].destName" Type="Str">CAN_Reader_NIXNET_Plugin.3.0.6.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/CIF/builds/CAN_Reader_NIXNETPlugin/win/CAN_Reader_NIXNET_Plugin.3.0.6.lvlibp</Property>
+				<Property Name="Bld_version.patch" Type="UInt">7</Property>
+				<Property Name="Destination[0].destName" Type="Str">CAN_Reader_NIXNET_Plugin.3.0.7.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/CIF/builds/CAN_Reader_NIXNETPlugin/win/CAN_Reader_NIXNET_Plugin.3.0.7.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -723,7 +723,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
 				<Property Name="TgtF_productName" Type="Str">PluginWin</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5B0DB68A-8D34-42D5-8BC2-16A52FB2FBA3}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">CAN_Reader_NIXNET_Plugin.3.0.6.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">CAN_Reader_NIXNET_Plugin.3.0.7.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
