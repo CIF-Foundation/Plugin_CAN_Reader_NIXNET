@@ -12,6 +12,7 @@ service CanReaderNixnet {
   rpc GetDevices (RefreshDevices) returns (XnetDevices) {}
   rpc GetStatistics (cif.common.Empty) returns (Statistics) {}
   rpc SetInterfaceBlink (InterfaceBlink) returns (cif.common.Status) {}
+  rpc GetCANStatus (GetCANStatusRequest) returns (GetCANStatusResponse) {}
 }
 
 message Statistics {
@@ -37,4 +38,30 @@ message XnetDevice {
    string interface = 1;
    uint32 slot = 2;
    string device_id = 3;
+}
+
+message GetCANStatusRequest {}
+
+message GetCANStatusResponse {
+   CommState comm_state = 1;
+   LastError last_error = 2;
+   uint32 rx_error_ctr = 3;
+   uint32 tx_error_crt = 4;
+}
+
+enum CommState {
+  COMMSTATE_ERROR_ACTIVE = 0;
+  COMMSTATE_ERROR_PASSIVE = 1;
+  COMMSTATE_BUS_OFF = 2;
+}
+
+enum LastError {
+  LASTERROR_NONE = 0;
+  LASTERROR_STUFF = 1;
+  LASTERROR_FORM = 2;
+  LASTERROR_ACK = 3;
+  LASTERROR_BIT1 = 4;
+  LASTERROR_BIT0 = 5;
+  LASTERROR_CRC = 6;
+  LASTERROR_UNKNOWN = 7;
 }
